@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div{
+  background-image: url("../back.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  height: 100vh;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+.table {
+  display: inline-block;
+  place-items: center;
+  place-content: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  
+  border: 2px solid #ffffff; /* Adds border around each cell */
+  padding: 15px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+.table th {
+  text-align: center;
+}
