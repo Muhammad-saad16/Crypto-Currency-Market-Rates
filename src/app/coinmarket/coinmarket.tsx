@@ -20,7 +20,7 @@ interface ApiResponse {
 }
 
 export default function CoinMarket() {
-  const API_KEY = "e1300c22800059c0c920c87cf00bf51e";
+  const API_KEY = "8ae730db13aee931f0ec73a9b4a26e8b";
   const [data, setData] = useState<ApiResponse | null>(null);
 
   useEffect(() => {
